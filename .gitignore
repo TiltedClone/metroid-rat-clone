@@ -9,6 +9,7 @@
 
 # VS settings
 metroid-rat-clone/.vs/
+*.vcxproj
 
 # Compiled Object files
 *.slo
