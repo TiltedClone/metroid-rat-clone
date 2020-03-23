@@ -415,3 +415,4 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/c++,windows,visualstudio
+metroid-rat-clone/metroid-rat-clone/metroid-rat-clone.vcxproj
