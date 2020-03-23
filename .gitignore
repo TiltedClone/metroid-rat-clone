@@ -8,7 +8,7 @@
 *.d
 
 # VS settings
-.vs/
+metroid-rat-clone/.vs/
 
 # Compiled Object files
 *.slo
