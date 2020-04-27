@@ -1,5 +1,5 @@
 #pragma once
-#include "State.h"
+#include "GameState.h"
 class Game
 {
 private:
@@ -16,10 +16,14 @@ private:
 public:
 	Game();
 	virtual ~Game();
-	
+
 	void run();
+
+
 	void update();
 	void updateRender();
+	void updateEvents();
+	void updateInput();
 	void resetDt();
 };
 

@@ -9,7 +9,8 @@ public:
 	State(sf::RenderWindow * window);
 	virtual ~State();
 
-	virtual void update() = 0;
-	virtual void updateRender() = 0;
+	virtual void update(float& dt) = 0;
+	virtual void updateRender(sf::RenderTarget * renderTarget) = 0;
+	virtual void updateInput() = 0;
 };
 
