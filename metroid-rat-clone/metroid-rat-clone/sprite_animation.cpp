@@ -1,32 +1,34 @@
 #include "sprite_animation.h"
 
 
-sprite_animation::sprite_animation(int cellx, int celly, int rows, string anim_loc)
+sprite_animation::sprite_animation(int cellx, int celly, int rows, bool loop, string anim_loc)
 {
 	width = cellx /rows;
 	height = celly;
-	row = rows;
+	for (int i = 0; i < rows; i++)
+	{
+		IntRect rec(0 + width * i, 0, width, height);
+		row.push_back(rec);
+	}
+	looping = loop;
 
 	location = anim_loc;
 
 	tex.loadFromFile(anim_loc);
 
 	setTexture(tex);
-	IntRect rec(0,0, width, height);
 
-	setTextureRect(rec);
+	setTextureRect(row[0]);
 	
 }
 void sprite_animation::update_animation()
 {
-	IntRect rec(0 + width * currFrame, 0, width, height);
-	setTextureRect(rec);
-	if (currFrame == row)
-	{
+	setTextureRect(row[currFrame]);
+	cout << row[currFrame].left << "\n";
+	if (currFrame == row.size()-1 && looping) {
 		currFrame = 0;
 	}
-	else
-	{
-		currFrame++;
+	else {
+		currFrame >= row.size()-1 ? currFrame = row.size()-1 : currFrame++;
 	}
 }
