@@ -5,8 +5,10 @@
 int main()
 {
 	sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-	sprite_animation s(561, 144, 7, "C:/Users/gurra/OneDrive/Bilder/MegaMan.png");
-	
+	sprite_animation s1(630, 144, 7, false, "C:/Users/gurra/OneDrive/Bilder/MegaMan.png");
+	sprite_animation s2(630, 144, 7, true, "C:/Users/gurra/OneDrive/Bilder/MegaMan.png");
+
+	s2.move(Vector2f(90, 0));
 	window.setFramerateLimit(16);
 
 	while (window.isOpen())
@@ -19,9 +21,11 @@ int main()
 		}
 
 		window.clear();
-		s.update_animation();
+		s1.update_animation();
+		s2.update_animation();
 
-		window.draw(s);
+		window.draw(s1);
+		window.draw(s2);
 		window.display();
 	}
 
