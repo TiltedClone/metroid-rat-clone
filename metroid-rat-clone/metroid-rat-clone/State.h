@@ -4,7 +4,7 @@
 class State
 {
 protected:
-	sf::RenderWindow *window;
+	sf::RenderWindow* window;
 public:
 	State(sf::RenderWindow * window);
 	virtual ~State();

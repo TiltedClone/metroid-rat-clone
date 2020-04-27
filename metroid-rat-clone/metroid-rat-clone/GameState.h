@@ -4,7 +4,7 @@ class GameState :
 	public State
 {
 private:
-
+	sf::RectangleShape rectangle;
 public:
 	GameState(sf::RenderWindow * window);
 

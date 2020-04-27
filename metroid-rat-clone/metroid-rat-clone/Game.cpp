@@ -13,6 +13,7 @@ void Game::initState()
 Game::Game()
 {
 	this->initRenderWindow();
+	this->initState();
 }
 
 Game::~Game()
@@ -20,13 +21,15 @@ Game::~Game()
 	delete this->window;
 	while (!this->states.empty())
 	{
-		this->states.pop();
 		delete this->states.top();
+		this->states.pop();
 	}
 }
 
 void Game::update()
 {
+	this->updateEvents();
+
 	if (!this->states.empty())
 	{
 		this->states.top()->update(this->dt);
@@ -34,10 +37,14 @@ void Game::update()
 }
 void Game::updateRender()
 {
+	this->window->clear();
+
 	if (!this->states.empty())
 	{
 		this->states.top()->updateRender(this->window);
 	}
+
+	this->window->display();
 }
 
 void Game::updateEvents()
