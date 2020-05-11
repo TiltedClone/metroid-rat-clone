@@ -2,10 +2,16 @@
 #include <iostream>
 GameState::GameState(sf::RenderWindow * window) : State(window)
 {
+	Tile G(0, false);
+	Tile S(3, true);
+	this->tileVector = 
+	{
+		{G,G,G,G},
+		{G,G,G,G},
+		{S,S,S,S}
+	};
+	this->tilemap.loadTexture("tileset.png", sf::Vector2u(32, 32), this->tileVector, 4, 3);
 
-	this->rectangle.setSize(sf::Vector2f(300, 300));
-	this->rectangle.setPosition(sf::Vector2f(100, 100));
-	this->rectangle.setFillColor(sf::Color::Blue);
 }
 
 void GameState::update(float & dt)
@@ -14,7 +20,7 @@ void GameState::update(float & dt)
 
 void GameState::updateRender(sf::RenderTarget * renderTarget)
 {
-	this->window->draw(this->rectangle);
+	this->window->draw(this->tilemap);
 }
 
 void GameState::updateInput()

@@ -7,7 +7,7 @@ void TileMap::draw(sf::RenderTarget & target, sf::RenderStates states) const
 	target.draw(m_vertices, states);
 }
 
-bool TileMap::loadTexture(const std::string & tileTextFile, sf::Vector2u tileSize, std::vector<std::vector<int>> &mapTiles, unsigned int width, unsigned int height)
+bool TileMap::loadTexture(const std::string & tileTextFile, sf::Vector2u tileSize, std::vector<std::vector<Tile>> &mapTiles, unsigned int width, unsigned int height)
 {
 
 	if (!m_tileset.loadFromFile(tileTextFile))
@@ -19,7 +19,7 @@ bool TileMap::loadTexture(const std::string & tileTextFile, sf::Vector2u tileSiz
 	for (int mapY = 0; mapY < mapTiles.size(); mapY++)
 		for (int mapX = 0; mapX < mapTiles[mapY].size(); mapX++)
 		{
-			int tileType = mapTiles[mapY][mapX];
+			int tileType = mapTiles[mapY][mapX].tileNumber;
 
 
 			int textX = tileType % (m_tileset.getSize().x / tileSize.x);
@@ -27,11 +27,6 @@ bool TileMap::loadTexture(const std::string & tileTextFile, sf::Vector2u tileSiz
 
 
 			sf::Vertex* quad = &m_vertices[(mapX + mapY * height) * 4];
-
-			if (tileType == 2)
-				this->tileCollision[mapX][mapY] = true;
-			else
-				this->tileCollision[mapX][mapY] = false;
 
 
 			quad[0].position = sf::Vector2f(mapX * tileSize.x, mapY * tileSize.y);

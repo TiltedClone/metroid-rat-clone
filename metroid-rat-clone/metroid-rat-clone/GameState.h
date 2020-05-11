@@ -1,10 +1,12 @@
 #pragma once
 #include "State.h"
+#include "TileMap.h"
 class GameState :
 	public State
 {
 private:
-	sf::RectangleShape rectangle;
+	std::vector<std::vector<Tile>> tileVector;
+	TileMap tilemap;
 public:
 	GameState(sf::RenderWindow * window);
 

@@ -1,6 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include <vector>
+#include "Tile.h"
 class TileMap : public sf::Drawable, public sf::Transformable
 {
 private:
@@ -12,7 +13,7 @@ private:
 	sf::Texture m_tileset;
 public:
 
-	bool loadTexture(const std::string& tileTextFile, sf::Vector2u tileSize, std::vector<std::vector<int>> &mapTiles, unsigned int width, unsigned int height);
+	bool loadTexture(const std::string& tileTextFile, sf::Vector2u tileSize, std::vector<std::vector<Tile>> &mapTiles, unsigned int width, unsigned int height);
 
 };
 
