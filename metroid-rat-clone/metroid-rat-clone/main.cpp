@@ -1,13 +1,18 @@
 #include <SFML/Graphics.hpp>
+#include <iostream>
 #include "Entity.h"
+#include "Player.h"
+#include "NPC.h"
+
 int main()
 {
 	
-	Entity player;
+	Player player;
+	NPC npc;
 	player.setPosition(sf::Vector2f(1, 2));
 
-
-	sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+	
+	sf::RenderWindow window(sf::VideoMode(800, 800), "SFML works!");
 	sf::CircleShape shape(100.f);
 	shape.setFillColor(sf::Color::Green);
 
@@ -21,7 +26,14 @@ int main()
 		}
 
 		window.clear();
-		window.draw(player);
+		//shape.setPosition(player.getPosition());
+		player.update();
+		player.render(window);
+		npc.update(player.Interact(), player.getPosition());
+		npc.render(window);
+		//std::cout << player.getPosition().x << player.getPosition().y;
+
+		//window.draw(shape);
 		window.display();
 	}
 
