@@ -2,7 +2,6 @@
 
 Entity::Entity() 
 {
-	
 }
 void Entity::draw(sf::RenderTarget& target, sf::RenderStates states) const
 {
@@ -25,7 +24,6 @@ void Entity::Render(sf::RenderWindow* target)
 {
 	target->draw(this->shape);
 }
-
 
 Entity::~Entity()
 {

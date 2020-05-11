@@ -1,1 +1,3 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.targets(46,5): error MSB8036: The Windows SDK version 10.0.17763.0 was not found. Install the required version of Windows SDK or change the SDK version in the project property pages or by right-clicking the solution and selecting "Retarget solution".
+﻿  NPC.cpp
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\entity.h(10): warning C4305: 'initializing': truncation from 'double' to 'float'
+  metroid-rat-clone.vcxproj -> C:\Users\gurra\OneDrive\Dokument\GitHub\Animus\metroid-rat-clone\metroid-rat-clone\Debug\metroid-rat-clone.exe

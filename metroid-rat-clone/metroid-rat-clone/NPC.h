@@ -8,12 +8,13 @@ class NPC :
 public:
 	NPC();
 	void update(bool Interact, sf::Vector2f pos);
+	sf::RectangleShape text;
 	void render(sf::RenderTarget &window);
 	
 
 	~NPC();
 private:
-	
+	bool interacted;
 	sf::Vector2f interactBox;
 	void init();
 };
