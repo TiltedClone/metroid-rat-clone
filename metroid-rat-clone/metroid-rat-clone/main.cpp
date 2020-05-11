@@ -22,7 +22,7 @@ int main()
 
 		window.clear();
 		s1.update_animation();
-		s2.update_animation();
+		s2.set_animation_frame(3);
 
 		window.draw(s1);
 		window.draw(s2);

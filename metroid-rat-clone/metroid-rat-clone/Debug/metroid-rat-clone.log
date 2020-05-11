@@ -1,2 +1,6 @@
 ﻿  main.cpp
+  sprite_animation.cpp
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\sprite_animation.cpp(32): warning C4018: '>=': signed/unsigned mismatch
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\sprite_animation.cpp(37): warning C4018: '>=': signed/unsigned mismatch
+  Generating Code...
   metroid-rat-clone.vcxproj -> C:\Users\gurra\OneDrive\Dokument\GitHub\Animus\metroid-rat-clone\metroid-rat-clone\Debug\metroid-rat-clone.exe
