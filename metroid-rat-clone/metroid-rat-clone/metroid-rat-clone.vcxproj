@@ -124,13 +124,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameState.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuState.cpp" />
     <ClCompile Include="sprite_animation.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="TileMap.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="MenuState.h" />
     <ClInclude Include="sprite_animation.h" />
     <ClCompile Include="NPC.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="TileMap.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="openal32.dll" />
@@ -149,6 +161,9 @@
     <ClInclude Include="Entity.h" />
     <ClInclude Include="NPC.h" />
     <ClInclude Include="Player.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="tileset.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
