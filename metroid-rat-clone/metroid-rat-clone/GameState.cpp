@@ -26,3 +26,7 @@ void GameState::updateRender(sf::RenderTarget * renderTarget)
 void GameState::updateInput()
 {
 }
+
+GameState::~GameState()
+{
+}

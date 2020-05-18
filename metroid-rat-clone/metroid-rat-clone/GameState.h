@@ -13,5 +13,6 @@ public:
 	void update(float& dt);
 	void updateRender(sf::RenderTarget * renderTarget);
 	void updateInput();
+
 };
 

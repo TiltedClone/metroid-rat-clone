@@ -417,30 +417,9 @@ MigrationBackup/
 
 # End of https://www.gitignore.io/api/c++,windows,visualstudio
 metroid-rat-clone/metroid-rat-clone/metroid-rat-clone.vcxproj
-metroid-rat-clone/metroid-rat-clone/Debug/metroid-.a8e20e17.tlog/CL.command.1.tlog
-metroid-rat-clone/metroid-rat-clone/Debug/metroid-.a8e20e17.tlog/CL.read.1.tlog
-metroid-rat-clone/metroid-rat-clone/Debug/metroid-.a8e20e17.tlog/CL.write.1.tlog
-metroid-rat-clone/metroid-rat-clone/Debug/metroid-.a8e20e17.tlog/link.command.1.tlog
-metroid-rat-clone/metroid-rat-clone/Debug/metroid-.a8e20e17.tlog/link.read.1.tlog
-metroid-rat-clone/metroid-rat-clone/Debug/metroid-.a8e20e17.tlog/link.write.1.tlog
-metroid-rat-clone/metroid-rat-clone/Debug/vc141.idb
-metroid-rat-clone/metroid-rat-clone/Debug/vc141.pdb
-metroid-rat-clone/Debug/metroid-rat-clone.ilk
-metroid-rat-clone/Debug/metroid-rat-clone.pdb
-metroid-rat-clone/metroid-rat-clone/Debug/metroid-.a8e20e17.tlog/CL.command.1.tlog
-metroid-rat-clone/metroid-rat-clone/Debug/metroid-.a8e20e17.tlog/CL.read.1.tlog
-metroid-rat-clone/metroid-rat-clone/Debug/metroid-.a8e20e17.tlog/CL.write.1.tlog
-metroid-rat-clone/metroid-rat-clone/Debug/metroid-.a8e20e17.tlog/link.command.1.tlog
-metroid-rat-clone/metroid-rat-clone/Debug/metroid-.a8e20e17.tlog/link.read.1.tlog
-metroid-rat-clone/metroid-rat-clone/Debug/metroid-.a8e20e17.tlog/link.write.1.tlog
-metroid-rat-clone/metroid-rat-clone/Debug/metroid-rat-clone.log
-metroid-rat-clone/metroid-rat-clone/Debug/vc141.idb
-metroid-rat-clone/metroid-rat-clone/Debug/vc141.pdb
+
 metroid-rat-clone/metroid-rat-clone/metroid-rat-clone.vcxproj
 metroid-rat-clone/metroid-rat-clone/metroid-rat-clone.vcxproj.filters
-*.tlog
+*.log
 *.vcxproj
-*.idb
-*.pdb
-*.ilk
-metroid-rat-clone/metroid-rat-clone/metroid-rat-clone.vcxproj.filters
+*.filters
