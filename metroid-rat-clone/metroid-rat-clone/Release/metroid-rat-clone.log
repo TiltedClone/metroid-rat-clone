@@ -1,10 +1,100 @@
-﻿  Player.cpp
-c:\users\te17fw0\documents\github\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\entity.h(10): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\te17fw0\documents\github\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\player.cpp(12): warning C4305: '=': truncation from 'double' to 'float'
-c:\users\te17fw0\documents\github\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\player.cpp(13): warning C4305: '=': truncation from 'double' to 'float'
-  Generating code
-  2 of 37 functions ( 5.4%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  metroid-rat-clone.vcxproj -> C:\Users\te17fw0\Documents\GitHub\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\Release\metroid-rat-clone.exe
+﻿  Entity.cpp
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\entity.h(10): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\entity.cpp(15): warning C4305: '+=': truncation from 'double' to 'float'
+  Game.cpp
+  GameState.cpp
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\gamestate.cpp(31): error C2600: 'GameState::~GameState': cannot define a compiler-generated special member function (must be declared in the class first)
+  main.cpp
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\entity.h(10): warning C4305: 'initializing': truncation from 'double' to 'float'
+  MenuState.cpp
+  sprite_animation.cpp
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\sprite_animation.cpp(30): warning C4018: '>=': signed/unsigned mismatch
+  State.cpp
+  Tile.cpp
+  TileMap.cpp
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\tilemap.cpp(19): warning C4018: '<': signed/unsigned mismatch
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\tilemap.cpp(20): warning C4018: '<': signed/unsigned mismatch
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\tilemap.cpp(32): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\tilemap.cpp(33): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\tilemap.cpp(34): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\tilemap.cpp(35): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\tilemap.cpp(38): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\tilemap.cpp(39): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\tilemap.cpp(40): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\tilemap.cpp(41): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+  NPC.cpp
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\entity.h(10): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Player.cpp
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\entity.h(10): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\player.cpp(10): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\player.cpp(11): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\player.cpp(19): warning C4804: '-': unsafe use of type 'bool' in operation
+c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\player.cpp(20): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
