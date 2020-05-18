@@ -11,6 +11,9 @@
     <ClCompile Include="Player.cpp">
       <Filter>Entities</Filter>
     </ClCompile>
+    <ClCompile Include="sprite_animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
     <ClCompile Include="Game.cpp">
       <Filter>GameAndStates</Filter>
     </ClCompile>
@@ -29,9 +32,6 @@
     <ClCompile Include="TileMap.cpp">
       <Filter>Level</Filter>
     </ClCompile>
-    <ClCompile Include="sprite_animation.cpp">
-      <Filter>Animation</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity.h">
@@ -42,6 +42,9 @@
     </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_animation.h">
+      <Filter>Animation</Filter>
     </ClInclude>
     <ClInclude Include="Game.h">
       <Filter>GameAndStates</Filter>
@@ -60,9 +63,6 @@
     </ClInclude>
     <ClInclude Include="TileMap.h">
       <Filter>Level</Filter>
-    </ClInclude>
-    <ClInclude Include="sprite_animation.h">
-      <Filter>Animation</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
