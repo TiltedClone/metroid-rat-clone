@@ -1,2 +1,0 @@
-﻿  GameState.cpp
-c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\gamestate.cpp(31): error C2600: 'GameState::~GameState': cannot define a compiler-generated special member function (must be declared in the class first)
