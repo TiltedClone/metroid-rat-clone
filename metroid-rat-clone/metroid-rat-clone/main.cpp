@@ -1,16 +1,19 @@
-#include <SFML/Graphics.hpp>
-#include "sprite_animation.h"
-
+#include <iostream>
+#include "Entity.h"
+#include "Player.h"
+#include "NPC.h"
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-	sprite_animation s1(630, 144, 7, false, "C:/Users/gurra/OneDrive/Bilder/MegaMan.png");
-	sprite_animation s2(630, 144, 7, true, "C:/Users/gurra/OneDrive/Bilder/MegaMan.png");
+	
+	Player player;
+	NPC npc;
+	player.setPosition(sf::Vector2f(1, 2));
 
-	s2.move(Vector2f(90, 0));
-	window.setFramerateLimit(16);
-
+	
+	sf::RenderWindow window(sf::VideoMode(800, 800), "SFML works!");
+	sf::CircleShape shape(100.f);
+	shape.setFillColor(sf::Color::Green);
 	while (window.isOpen())
 	{
 		sf::Event event;
@@ -21,11 +24,14 @@ int main()
 		}
 
 		window.clear();
-		s1.update_animation();
-		s2.set_animation_frame(3);
+		//shape.setPosition(player.getPosition());
+		player.update();
+		player.render(window);
+		npc.update(player.Interact(), player.getPosition());
+		npc.render(window);
+		//std::cout << player.getPosition().x << player.getPosition().y;
 
-		window.draw(s1);
-		window.draw(s2);
+		//window.draw(shape);
 		window.display();
 	}
 
