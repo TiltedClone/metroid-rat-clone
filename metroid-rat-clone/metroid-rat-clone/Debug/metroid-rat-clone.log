@@ -1,5 +1,0 @@
-
-NPC.cpp
-c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\entity.h(10): warning C4305: 'initializing': truncation from 'double' to 'float'
-
-  metroid-rat-clone.vcxproj -> C:\Users\gurra\OneDrive\Dokument\GitHub\Animus\metroid-rat-clone\metroid-rat-clone\Debug\metroid-rat-clone.exe
