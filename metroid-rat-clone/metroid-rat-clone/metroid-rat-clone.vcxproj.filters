@@ -13,11 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{11d9fa4a-1524-4db9-b404-f320bdc4c89a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+      <Filter>Animation</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sprite_animation.h">
     <ClCompile Include="Entity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
