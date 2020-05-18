@@ -27,6 +27,3 @@ void GameState::updateInput()
 {
 }
 
-GameState::~GameState()
-{
-}

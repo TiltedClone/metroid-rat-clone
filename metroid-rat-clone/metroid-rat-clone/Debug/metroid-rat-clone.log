@@ -1,5 +1,1 @@
-
-NPC.cpp
-c:\users\gurra\onedrive\dokument\github\animus\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\entity.h(10): warning C4305: 'initializing': truncation from 'double' to 'float'
-
-  metroid-rat-clone.vcxproj -> C:\Users\gurra\OneDrive\Dokument\GitHub\Animus\metroid-rat-clone\metroid-rat-clone\Debug\metroid-rat-clone.exe
+﻿C:\Users\te17fw0\Documents\GitHub\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone.vcxproj(62,5): error MSB4019: The imported project "C:\Users\te17fw0\Documents\GitHub\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\metroid-rat-clone\ncse.props" was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.

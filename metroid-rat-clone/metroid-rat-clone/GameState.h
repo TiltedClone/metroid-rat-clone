@@ -14,5 +14,7 @@ public:
 	void updateRender(sf::RenderTarget * renderTarget);
 	void updateInput();
 
+	
+
 };
 
