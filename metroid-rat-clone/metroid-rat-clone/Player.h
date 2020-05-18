@@ -9,6 +9,8 @@ class Player :
 
 public:
 	Player();
+
+	void draw(sf::RenderTarget& target, sf::RenderStates states)const;
 	void update();
 	void render(sf::RenderTarget &window);
 	~Player();

@@ -25,7 +25,11 @@ void Player::Movement()
 bool Player::Interact() {
 	return isKeyPressed(E);
 }
-void Player::update() 
+void Player::draw(sf::RenderTarget & target, sf::RenderStates states) const
+{
+	target.draw(rect);
+}
+void Player::update()
 {
 	Movement();
 	gravity(getPosition());
