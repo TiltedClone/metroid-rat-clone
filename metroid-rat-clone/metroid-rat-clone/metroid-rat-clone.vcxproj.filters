@@ -1,84 +1,128 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="Animation">
-      <UniqueIdentifier>{11d9fa4a-1524-4db9-b404-f320bdc4c89a}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>GameAndStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>GameAndStates</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>GameAndStates</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>GameAndStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite_animation.cpp">
       <Filter>Animation</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>GameAndStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>GameAndStates</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>GameAndStates</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>GameAndStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Level</Filter>
+    </ClInclude>
     <ClInclude Include="sprite_animation.h">
-    <ClCompile Include="Entity.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NPC.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+      <Filter>Animation</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="openal32.dll">
-      <Filter>Resource Files</Filter>
+      <Filter>dll</Filter>
     </None>
     <None Include="sfml-audio-2.dll">
-      <Filter>Resource Files</Filter>
+      <Filter>dll</Filter>
     </None>
     <None Include="sfml-audio-d-2.dll">
-      <Filter>Resource Files</Filter>
+      <Filter>dll</Filter>
     </None>
     <None Include="sfml-graphics-2.dll">
-      <Filter>Resource Files</Filter>
+      <Filter>dll</Filter>
     </None>
     <None Include="sfml-graphics-d-2.dll">
-      <Filter>Resource Files</Filter>
+      <Filter>dll</Filter>
     </None>
     <None Include="sfml-network-2.dll">
-      <Filter>Resource Files</Filter>
+      <Filter>dll</Filter>
     </None>
     <None Include="sfml-network-d-2.dll">
-      <Filter>Resource Files</Filter>
+      <Filter>dll</Filter>
     </None>
     <None Include="sfml-system-2.dll">
-      <Filter>Resource Files</Filter>
+      <Filter>dll</Filter>
     </None>
     <None Include="sfml-system-d-2.dll">
-      <Filter>Resource Files</Filter>
+      <Filter>dll</Filter>
     </None>
     <None Include="sfml-window-2.dll">
-      <Filter>Resource Files</Filter>
+      <Filter>dll</Filter>
     </None>
     <None Include="sfml-window-d-2.dll">
-      <Filter>Resource Files</Filter>
+      <Filter>dll</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Entity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NPC.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{3803c3f0-ae39-4577-940c-588d2b761c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dll">
+      <UniqueIdentifier>{660cdbc4-37b9-46b0-8a1e-c7895c49f153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAndStates">
+      <UniqueIdentifier>{c7909258-ec11-4b6f-9acb-7175cf5fb71e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{67feb21f-ddf1-44ea-9830-c0a178c07dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{b773c82d-a2f2-4075-86cc-17526ac77c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{8fb8bd30-2a21-403c-9ff7-04e1ebb1022a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="tileset.png">
+      <Filter>Images</Filter>
+    </Image>
   </ItemGroup>
 </Project>
