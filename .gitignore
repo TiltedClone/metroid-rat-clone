@@ -419,3 +419,6 @@ MigrationBackup/
 metroid-rat-clone/metroid-rat-clone/metroid-rat-clone.vcxproj
 metroid-rat-clone/metroid-rat-clone/metroid-rat-clone.vcxproj
 metroid-rat-clone/metroid-rat-clone/metroid-rat-clone.vcxproj.filters
+*.log
+*.vcxproj
+*.filters
