@@ -13,7 +13,7 @@ private:
 	sf::Texture m_tileset;
 public:
 
-	bool loadTexture(const std::string& tileTextFile, sf::Vector2u tileSize, std::vector<std::vector<Tile>> &mapTiles, unsigned int width, unsigned int height);
+	bool loadTexture(const std::string& tileTextFile, sf::Vector2u tileSize, std::vector<std::vector<Tile>> &mapTiles, sf::Vector2u screenSize);
 
 };
 
