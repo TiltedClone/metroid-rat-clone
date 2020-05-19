@@ -1,7 +1,10 @@
 #include "sprite_animation.h"
 
+sprite_animation::sprite_animation()
+{
 
-sprite_animation::sprite_animation(int cellx, int celly, int rows, bool loop, string anim_loc)
+}
+void sprite_animation::init(int cellx, int celly, int rows, bool loop, string anim_loc)
 {
 	width = cellx /rows;
 	height = celly;

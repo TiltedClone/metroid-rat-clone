@@ -17,7 +17,8 @@ class sprite_animation : public Sprite
 	Texture tex;
 	int currFrame = 0;
 public:
-	sprite_animation(int cellx, int celly, int rows, bool loop, string anim_loc);
+	sprite_animation();
+	void init(int cellx, int celly, int rows, bool loop, string anim_loc);
 	void update_animation();
 	void set_animation_frame(int Frame);
 };
